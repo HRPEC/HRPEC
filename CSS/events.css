@@ -1,6 +1,6 @@
 body{
   margin: 0;
-  background-color: aliceblue;
+  background-color: white;
 }
 .stock-image{
   justify-content: center;
@@ -12,14 +12,6 @@ body{
   text-align: center;
   color: white;
 }
-.events-image{
-  object-fit: cover;
-  object-position: center;
-  justify-content: space-between;
-  margin-bottom: 30px;
-  margin-left: 30px;
-  margin-top: 30px;
-}
 .events-content-grid{
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
@@ -27,46 +19,91 @@ body{
 .miyerkulet-content{
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   border: none;
-  border-radius: 10px;
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.20);
-  background-color: rgb(255, 255, 255);
-  margin: 40px 70px;
+  background: linear-gradient(135deg,rgb(255,255,255) 0%,rgb(255,201,253) 100%);
+  margin-top: 30px;
 }
 .miyerkulet-image{
   object-fit: cover;
   height: 400px;
-}
-.miyerkulet-image-content{
-  margin-top: 40px;
-  margin-right: 40px;
+  margin: 30px 30px;
 }
 .miyerkulet-content p{
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  line-height: 24px;
-  color: rgb(67, 151, 192);
-  padding: 40px 40px;
+  color: rgb(82,89,99);
 }
 .miyerkulet-text{
   font-family: roboto, arial;
   font-size: 40px;
   font-weight: bolder;
-  margin-bottom: 0;
-  padding-bottom: 0;
+  text-decoration: underline;
+  padding-bottom: 10px;
 }
 .miyerkulet-info{
   text-align: center;
   margin-top: 0;
+  padding-top: 0;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 24px;
+  line-height: 30px;
   font-family: roboto, arial;
 }
-.extravaganza-image-content{
-  margin-left: 40px;
-  margin-top: 40px;
+.extravaganza-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  background: linear-gradient(90deg,rgb(143, 221, 255) 0%,rgb(255,255,255) 100%);
+  margin-top: 30px;
 }
-.chikahan-image-content{
-  margin-right: 40px;
-  margin-top: 40px;
+.extravaganza-image{
+  object-fit: cover;
+  height: 350px;
+  margin: 30px 30px;
+}
+.extravaganza-content p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 30px;
+  color: rgb(82,89,99);
+}
+.extravaganza-text{
+  font-family: roboto, arial;
+  font-size: 40px;
+  font-weight: bolder;
+  text-decoration: underline;
+  padding-bottom: 10px;
+}
+.extravaganza-info{
+  text-align: center;
+  margin-top: 0;
+  padding-top: 0;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 24px;
+  line-height: 30px;
+  font-family: roboto, arial;
+}
+.scroll-up{
+  bottom: 20px;
+  right: 20px;
+  width: 38px;
+  height: 38px;
+  background: url(../images/top.png) no-repeat;
+  position: fixed;
+  z-index: 2147483647;
+  transition: 0.15s;
+}
+.scroll-up a{
+  color: #337ab7;
+  text-decoration:none;
 }
