@@ -3,10 +3,11 @@ body{
   background-color: white;
 }
 .hrpec-background{
-  width: 100%;
+  max-width: 100%;
+  height: auto;
   background-position: center;
   background-size: cover;
-  height: 100vh;
+  
 }
 .middle-content-grid{
   display: grid;
