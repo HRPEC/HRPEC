@@ -215,6 +215,7 @@
 }
 .fourth-container-image{
   height: 100vh;
+  width: 100%;
   opacity: 75%;
 }
 .fourth-container-flat-bird{
@@ -226,24 +227,25 @@
 }
 .fourth-container-qoutes{
 }
-.fourth-container-qoutes h1{
-  position: absolute;
-  font-family: poppins, arial;
-  font-size: 60px;
-  color: white;
-  top: 0;
-  text-align: center;
-  padding-left: 20%;
-  padding-right: 20%;
-  padding-bottom: 8%;
-}
-.fourth-container-qoutes p{
+.fourth-container-qoutes-h1{
   position: absolute;
   font-family: poppins, arial;
   font-size: 30px;
   color: white;
-  bottom: 0;
   text-align: center;
-  padding-left: 30%;
-  padding-right: 30%;
+  top: 50%;
+  left: 40%;
+  right: 40%;
+  transform: translate(-50%, -50%);
+}
+.fourth-container-qoutes-span{
+  position: absolute;
+  font-family: poppins, arial;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  bottom: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
 }
